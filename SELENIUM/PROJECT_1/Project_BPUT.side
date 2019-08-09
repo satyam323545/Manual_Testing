@@ -1,0 +1,144 @@
+{
+  "id": "84fc9142-65cb-4ab8-9f27-948aaf82dda7",
+  "version": "2.0",
+  "name": "Project_1",
+  "url": "https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin",
+  "tests": [{
+    "id": "316724f9-35b1-4fe8-ba83-34b583dd119d",
+    "name": "TestCase_bputOdisha",
+    "commands": [{
+      "id": "92d8fb87-01d8-4ba7-b317-bc3a53fe1647",
+      "comment": "",
+      "command": "open",
+      "target": "http://bputexam.in/LoginMain.aspx?ReturnUrl=%2f",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6da0a7d7-6460-4851-b41e-e0971c4559b3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "800x600",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d89bb40-d0f3-4673-bc94-5912431188a8",
+      "comment": "",
+      "command": "click",
+      "target": "id=PtuLogin_UserName",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "daebd174-ca03-4c26-bbd8-fd028a6e935f",
+      "comment": "",
+      "command": "type",
+      "target": "id=PtuLogin_UserName",
+      "targets": [],
+      "value": "1501219117"
+    }, {
+      "id": "bbdd686f-73d5-4abb-ba2c-56d9c3de9974",
+      "comment": "",
+      "command": "click",
+      "target": "id=PtuLogin_Password",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f8fb11e-d0b2-4a08-ba30-f7d9ee4c7183",
+      "comment": "",
+      "command": "type",
+      "target": "id=PtuLogin_Password",
+      "targets": [],
+      "value": "satty0927"
+    }, {
+      "id": "d6cc66ac-4e46-407c-9b04-4ce3a768f094",
+      "comment": "",
+      "command": "click",
+      "target": "id=PtuLogin_LoginButton",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c990767-d4d9-4617-8487-36718b3acbc3",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Biju Patnaik University of Technology, Odisha  ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2bb78ea-5aea-465e-99b3-2e133cce5258",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=ctl00_WucMainHeader1_lblWelcome",
+      "targets": [
+        ["id=ctl00_WucMainHeader1_lblWelcome", "id"],
+        ["css=#ctl00_WucMainHeader1_lblWelcome", "css:finder"],
+        ["xpath=//span[@id='ctl00_WucMainHeader1_lblWelcome']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/div[3]/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'SATYAM KUMAR MANDAL')]", "xpath:innerText"]
+      ],
+      "value": "SATYAM KUMAR MANDAL"
+    }]
+  }, {
+    "id": "ad9f4f69-5757-427c-9600-fee811a4ce74",
+    "name": "TestCase_bputOdisha (1)",
+    "commands": [{
+      "id": "d956f82f-1995-4125-8d54-03a7470d5587",
+      "comment": "",
+      "command": "open",
+      "target": "http://bputexam.in/LoginMain.aspx?ReturnUrl=%2f",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8856437-e188-4a3f-aceb-dcc0c7117d04",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "800x600",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27d6b728-9426-437a-99fc-059772a5dc03",
+      "comment": "",
+      "command": "click",
+      "target": "id=PtuLogin_UserName",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0574a07a-64d1-48ae-a788-34c7f7c6a108",
+      "comment": "",
+      "command": "type",
+      "target": "id=PtuLogin_UserName",
+      "targets": [],
+      "value": "1501219117"
+    }, {
+      "id": "1087b65a-f00f-4d2b-9c22-2f1cdac39a83",
+      "comment": "",
+      "command": "click",
+      "target": "id=PtuLogin_Password",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64c3a2da-c183-4171-82c2-2a6d03d0addf",
+      "comment": "",
+      "command": "type",
+      "target": "id=PtuLogin_Password",
+      "targets": [],
+      "value": "satty0927"
+    }, {
+      "id": "2025a87e-63ec-4340-9ecc-9e19dae2456c",
+      "comment": "",
+      "command": "click",
+      "target": "id=PtuLogin_LoginButton",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "91abba5c-7718-42e9-bbd6-fede26766976",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://github.com/", "https://accounts.google.com/ServiceLogin/identifier?service=CPanel&flowName=GlifWebSignIn&flowEntry=AddSession", "https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin"],
+  "plugins": []
+}

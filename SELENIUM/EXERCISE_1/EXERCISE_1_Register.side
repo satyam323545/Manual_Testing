@@ -1,0 +1,168 @@
+{
+  "id": "bf21b1ad-7318-4384-89a5-5322ab910a31",
+  "version": "2.0",
+  "name": "EXERCISE_1",
+  "url": "http://demowebshop.tricentis.com/",
+  "tests": [{
+    "id": "95d7ffde-b3b1-447e-8716-616f4177b742",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "76628ebd-5302-4e60-9e1e-80184b3728c0",
+    "name": "REGISTRATION_1",
+    "commands": [{
+      "id": "a6903ff0-a24e-437e-a41c-1f82c358a5a7",
+      "comment": "",
+      "command": "open",
+      "target": "http://demowebshop.tricentis.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0037dfcb-e861-49c7-84af-3025c49c79ed",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1a89dba-872a-45f5-8da2-486823a97b69",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Register",
+      "targets": [
+        ["linkText=Register", "linkText"],
+        ["css=.ico-register", "css:finder"],
+        ["xpath=//a[contains(text(),'Register')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/register')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "40ede23f-ac13-4d2c-a74d-cb0c1de5801c",
+      "comment": "",
+      "command": "click",
+      "target": "id=gender-male",
+      "targets": [
+        ["id=gender-male", "id"],
+        ["name=Gender", "name"],
+        ["css=#gender-male", "css:finder"],
+        ["xpath=//input[@id='gender-male']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe4bcd05-a452-49e1-bfd5-596c7d813394",
+      "comment": "",
+      "command": "click",
+      "target": "id=FirstName",
+      "targets": [
+        ["id=FirstName", "id"],
+        ["name=FirstName", "name"],
+        ["css=#FirstName", "css:finder"],
+        ["xpath=//input[@id='FirstName']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d02fe2f9-f38a-4043-96aa-f9f0590a9945",
+      "comment": "",
+      "command": "type",
+      "target": "id=FirstName",
+      "targets": [
+        ["id=FirstName", "id"],
+        ["name=FirstName", "name"],
+        ["css=#FirstName", "css:finder"],
+        ["xpath=//input[@id='FirstName']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Satyam"
+    }, {
+      "id": "28492937-adfc-4661-b378-1e443a32c353",
+      "comment": "",
+      "command": "type",
+      "target": "id=LastName",
+      "targets": [
+        ["id=LastName", "id"],
+        ["name=LastName", "name"],
+        ["css=#LastName", "css:finder"],
+        ["xpath=//input[@id='LastName']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Mandal"
+    }, {
+      "id": "b4b9b505-0d34-40ba-8f70-9a6d805e1f6b",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "test_stuff@gmail.com"
+    }, {
+      "id": "81a98846-4753-4f7d-b2e4-59bd5ea3c051",
+      "comment": "",
+      "command": "type",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["name=Password", "name"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "satty0927"
+    }, {
+      "id": "5d426a52-7a0d-4820-9b6f-c4bcd7549cee",
+      "comment": "",
+      "command": "type",
+      "target": "id=ConfirmPassword",
+      "targets": [
+        ["id=ConfirmPassword", "id"],
+        ["name=ConfirmPassword", "name"],
+        ["css=#ConfirmPassword", "css:finder"],
+        ["xpath=//input[@id='ConfirmPassword']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "satty0927"
+    }, {
+      "id": "15d01f9c-5255-4333-bff2-4cf160698fd1",
+      "comment": "",
+      "command": "click",
+      "target": "id=register-button",
+      "targets": [
+        ["id=register-button", "id"],
+        ["name=register-button", "name"],
+        ["css=#register-button", "css:finder"],
+        ["xpath=//input[@id='register-button']", "xpath:attributes"],
+        ["xpath=//form/div/div[2]/div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fe8e5aa-bbd4-4f8a-95f6-5370daa126dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.register-continue-button",
+      "targets": [
+        ["css=.register-continue-button", "css:finder"],
+        ["xpath=//input[@value='Continue']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "04123c30-3596-472c-8bff-cea74cf914ce",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["95d7ffde-b3b1-447e-8716-616f4177b742"]
+  }],
+  "urls": ["http://demowebshop.tricentis.com/"],
+  "plugins": []
+}

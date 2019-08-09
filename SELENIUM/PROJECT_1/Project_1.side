@@ -1,0 +1,81 @@
+{
+  "id": "84fc9142-65cb-4ab8-9f27-948aaf82dda7",
+  "version": "2.0",
+  "name": "Project_1",
+  "url": "https://github.com/",
+  "tests": [{
+    "id": "4a9f2e0d-d162-4d7d-8c2b-106e3282399f",
+    "name": "Untitled",
+    "commands": [{
+      "id": "e8ca4e4c-f954-475d-820f-2656e58afa3e",
+      "comment": "",
+      "command": "open",
+      "target": "https://github.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9354ba1e-d105-45ea-bf70-2d022035c1b8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ac94428-62f7-4ec5-91d7-3d33de72f8ff",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=.HeaderMenu-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7742ccb0-5fc7-48a1-8023-0c03052a7821",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/div[3]/input[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "0d9ec273-eb15-4358-8f5a-a640fa37e69f",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/div[3]/input[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/input[2]", "xpath:position"]
+      ],
+      "value": "satty8425"
+    }]
+  }, {
+    "id": "9d33a9fd-b440-4fd6-afbd-1f5779c5287f",
+    "name": "TestCase_1",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "91abba5c-7718-42e9-bbd6-fede26766976",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4a9f2e0d-d162-4d7d-8c2b-106e3282399f"]
+  }],
+  "urls": [],
+  "plugins": []
+}

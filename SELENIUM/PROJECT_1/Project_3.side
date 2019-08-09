@@ -1,0 +1,93 @@
+{
+  "id": "84fc9142-65cb-4ab8-9f27-948aaf82dda7",
+  "version": "2.0",
+  "name": "Project_1",
+  "url": "https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin",
+  "tests": [{
+    "id": "9d33a9fd-b440-4fd6-afbd-1f5779c5287f",
+    "name": "TestCase_1",
+    "commands": []
+  }, {
+    "id": "40a65d6d-9d58-40ca-9328-24d6c2b20042",
+    "name": "TestCase_3",
+    "commands": [{
+      "id": "15f85594-fb91-44b3-b363-1971fffbd538",
+      "comment": "",
+      "command": "open",
+      "target": "https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37b48905-d6a3-422e-8491-cda7da82e40b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "800x600",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae88cbd4-7c80-41d2-b5ae-7724fe8a5c7e",
+      "comment": "",
+      "command": "type",
+      "target": "id=identifierId",
+      "targets": [
+        ["id=identifierId", "id"],
+        ["name=identifier", "name"],
+        ["css=#identifierId", "css:finder"],
+        ["xpath=//input[@id='identifierId']", "xpath:attributes"],
+        ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/span/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "mandal0927"
+    }, {
+      "id": "29ae594d-5f47-417c-8d65-fd842d5a6b30",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=identifierId",
+      "targets": [
+        ["id=identifierId", "id"],
+        ["name=identifier", "name"],
+        ["css=#identifierId", "css:finder"],
+        ["xpath=//input[@id='identifierId']", "xpath:attributes"],
+        ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/span/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "71fc249b-d036-424d-af9a-7cc75502d85e",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.I0VJ4d .whsOnd", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='password']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "satty8425"
+    }, {
+      "id": "9739b3f4-49aa-440b-9b62-ec4a8e09c8ba",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.I0VJ4d .whsOnd", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='password']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "91abba5c-7718-42e9-bbd6-fede26766976",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://github.com/", "https://accounts.google.com/ServiceLogin/identifier?service=CPanel&flowName=GlifWebSignIn&flowEntry=AddSession", "https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin"],
+  "plugins": []
+}
